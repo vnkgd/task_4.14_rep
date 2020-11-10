@@ -29,6 +29,7 @@
  10. [Команда git rm](./rm.md)
  11. [Команда git mv](./mv.md)
  12. [Команда git clean](./clean.md)
+ 13. [Команда git pull](./pull.md)
  
 
 

@@ -1,7 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
 header {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 400px;
     background-color: #d0d1d3;
+    background: url(https://unsplash.com/photos/ddd3h9hff3I) bottom no-repeat;
+    background-size: cover;
 }

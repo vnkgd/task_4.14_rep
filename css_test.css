@@ -1,0 +1,64 @@
+body {
+    background-color: lavenderblush;
+    text-align: center;
+}
+
+.container {
+    max-width: 768px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.container.a {
+    border-color: brown;
+}
+
+.container.b {
+    border-color: coral;
+}
+
+.container div {
+    display: inline-block;
+    border: 1px solid brown;
+    padding: 10px;
+}
+
+/* Разбираемся с псевдоклассами */
+
+div:not(.container) {
+    border-width: 3px;
+}
+
+.container.a div:first-child {
+    font-weight: bolder;
+}
+
+.container.a div:last-child {
+    color: green;
+}
+
+.container.a div:first-of-type {
+    text-shadow: 1px 1px 2px grey;
+}
+
+.container.a div:last-of-type {
+    text-shadow: 2px 2px 1px orangered;
+}
+
+/* поставьте знак "-" перед n для инвертирования */
+.container.b div:nth-child(n+3) {
+    background-color: skyblue;
+}
+
+.container.b div:nth-last-child(1) {
+    color: rebeccapurple;
+}
+
+.container.b div:nth-of-type(even) {
+    text-decoration: underline;
+}
+
+.container.b div:nth-last-of-type(2) {
+    color: red;
+}

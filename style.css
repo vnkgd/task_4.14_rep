@@ -13,3 +13,9 @@ header {
     background: url('https://images.unsplash.com/photo-1606145469859-bd36ede24638?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') bottom no-repeat;
     background-size: cover;
 }
+
+h1 {
+    color: #c6be94;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}

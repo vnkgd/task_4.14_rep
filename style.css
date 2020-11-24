@@ -44,3 +44,13 @@ footer .links >a {
     color: rgb(108, 117, 125);
     font-family: 'Times New Roman', Times, serif;
 }
+
+.news {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    
+}
